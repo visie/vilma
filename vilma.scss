@@ -1,0 +1,44 @@
+$grey-darker: #373a3c;
+$black_charcoal: #393D44;
+$black_woodsmoke: #0C0C0C;
+$red_torch: #A7000C;
+$red_torch_light: #F7103C;
+$border_radius: 18px;
+
+@use "bulma/sass" with (
+
+  $family-primary: "'Trebuchet MS', sans-serif",
+
+  $primary: $red_torch,
+  $link: $red_torch,
+  $dark: $black_charcoal,
+  $info: #999,
+  $success: #008148,
+  $warning: #fb8b24,
+  $danger: $red_torch_light,
+
+  $input-shadow: none,
+
+  $radius: $border_radius,
+  $input-radius: $border_radius,
+  $control-radius: $border_radius,
+  $file-radius: $border_radius,
+  $notification-radius: $border_radius,
+  $message-radius: $border_radius,
+  $message-header-radius: $border_radius,
+  $message-body-radius: $border_radius,
+  $box-radius: $border_radius,
+
+  $modal-card-head-padding: 18px,
+  $modal-card-head-background-color: $black_charcoal,
+  $modal-card-title-color: white,
+
+);
+
+.panel-tabs {
+  flex-wrap: wrap;
+}
+.modal-background {
+  background: #9991;
+  backdrop-filter: blur(10px);
+}
